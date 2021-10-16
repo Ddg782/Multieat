@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Мульти еда</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+	<div class="menu">
+		<a href="">Главная</a>
+		<a href="#product">О продукте</a>
+		<a href="#about">О нас</a>
+		<a href="#assortement">Купить продукт</a>
+		<a href="#contact">Контакты</a>
+	</div>
+<div class="header">
+	<div class="titles">
+	<h2>Добро пожаловать на сайт</h2>
+	<h1>Мульти еда</h1>
+</div>
+	
+</div>
+<div class="product container" id="product">
+	<h2>О продукте</h2>
+	<img src="images/product.jpg">
+	<ol>
+		<li>Компакт</li>
+		<li>Удобство</li>
+		<li>Не нужно готовить</li>
+		<li>Быстрое усвоение</li>
+		<li>Много витаминов</li>
+	</ol>
+</div>
+<div class="about container" id="about">
+	<h2>О нас</h2>
+	<img src="images/bg3.jpg" class="logo">
+	<p class="about-info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam voluptas, aspernatur, accusantium hic unde ex. Excepturi sit, dignissimos eligendi qui hic iure voluptas impedit ratione culpa unde saepe sint, dolores.
+	Soluta dolor hic voluptates ex beatae dolorem sequi porro laborum laudantium recusandae consequuntur, fuga maxime est vel quos minima rem ab molestias odio magnam tempore maiores a! Quasi quaerat, laudantium.</p>
+	<h3>Наша команда</h3>
+	<div class="team">
+		<div class="card">
+			<img src="images/carg.jpg">
+			<h3>Альберт Эйнштейн</h3>
+			<p>Физик теоретик</p>
+			<div class="socials">
+				<a href=""></a>
+				<a href=""></a>
+				<a href=""></a>
+			</div>
+		</div>
+		<div class="card">
+			<img src="images/card2.jpg">
+			<h3>Гордон Рамзи</h3>
+			<p>Шеф повар</p>
+			<div class="socials">
+				<a href=""></a>
+				<a href=""></a>
+				<a href=""></a>
+			</div>
+		</div>
+		<div class="card">
+			<img src="images/card3.jpg">
+			<h3>Дмитрий Менделеев</h3>
+			<p>Химик</p>
+			<div class="socials">
+				<a href=""></a>
+				<a href=""></a>
+				<a href=""></a>
+			</div>
+		</div>
+	</div>
+	
+</div>
+<div class="assortement container">
+		<h2>Наша продукция</h2>
+		<table class="assortement-table" id="assortement">
+			<thead>
+				<tr>
+					<th>Название</th>
+					<th>Состав</th>
+					<th>Цена</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Вегатерианский МИКС</td>
+					<td>
+						<ol>
+							<li>Рататуй</li>
+							<li>Овощной салат</li>
+							<li>Щи</li>
+						</ol>
+					</td>
+					<td>
+						<p class="price">1200₽</p>
+						<p class="amount">Одна пачка</p>
+					</td>
+				</tr>
+			</tbody>
+			<tbody>
+				<tr>
+					<td>Завтрак,обед,ужин</td>
+					<td>
+						<ol>
+							<li>Манная каша</li>
+							<li>Стейк, борщ, бутерброды с колбасой</li>
+							<li>Чай, печенье</li>
+						</ol>
+					</td>
+					<td>
+						<p class="price">1500₽</p>
+						<p class="amount">Одна пачка</p>
+					</td>
+				</tr>
+			</tbody>
+			<tbody>
+				<tr>
+					<td>Мясной микс</td>
+					<td>
+						<ol>
+							<li>Яичница с колбасой</li>
+							<li>Креветки</li>
+							<li>Стейк</li>
+							<li>Гамбургер</li>
+						</ol>
+					</td>
+					<td>
+						<p class="price">1200₽</p>
+						<p class="amount">Одна пачка</p>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<div class="contact container" id="contact">
+		<h2>Связатся с нами</h2>
+		<form class="contact-form">
+			<label for="name">Имя</label>
+			<input type="text" id="name">
+			<label for="email">Почта</label>
+			<input type="email" id="email">
+			<label>Ваш заказ</label>
+			<select>
+				<option>Вегетерианский МИКС</option>
+				<option>Завтрак, обед, ужин</option>
+				<option>Мясной МИКС</option>
+			</select>
+			<label>Купон на скидку</label>
+		<div class="choices">
+			<input type="radio" id="yes" name="coupon">
+			<label for="yes" class="choice">Есть</label>
+			<input type="radio" id="no" name="coupon">
+			<label for="no" class="choice">Нет</label>
+		</div>
+			<textarea placeholder="Ваш комментарий"></textarea>
+			<button>Отправить</button>
+		</form>
+	</div>
+	<div class="black">
+		<h4>ООО"Мульти еда"</h4>
+		<h4>Без пальмового масла</h4>
+	</div>
+</body>
+</html> 
